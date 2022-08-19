@@ -1,0 +1,218 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../Assets/tijolo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container {
+    height: fit-content;
+    width: 60%;
+    margin: auto;
+    padding: 25px 0;
+    text-align: center;
+}
+
+#title {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 70%;
+    padding: 15px 10px;
+    background-image: url(../Assets/placa.jpg);
+    background-size: cover;
+    box-shadow: #000000 0px 3px 5px;
+    text-shadow: #000000 0 0 10px;
+}
+
+#to-buy,
+#participants {
+    margin: auto;
+    margin-top: 25px;
+    padding: 10px;
+    width: 15%;
+    background-image: url(../Assets/placa.jpg);
+    background-size: cover;
+    box-shadow: #000000 0px 3px 5px;
+    text-shadow: #000000 0 0 8px;
+}
+
+#fire {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    height: 300px;
+    width: 60%;
+    background-image: url(../Assets/fogo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+#results {
+    height: 85%;
+    width: 60%;
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: #e0d6c3de;
+    box-shadow: #000000 0px 3px 5px;
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+    text-shadow: black 0 2px 4px;
+}
+
+#form {
+    height: fit-content;
+    width: 100%;
+    padding-top: 5px;
+    align-items: center;
+    margin: 15px 0;
+
+    border: #000000 1px;
+}
+
+input,
+button {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 35px;
+    width: 30%;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+button {
+    margin-bottom: 35px;
+    color: #000000;
+    font-weight: 600;
+    background-color: #ababab;
+    box-shadow: black 0 2px 3px;
+    cursor: pointer;
+    transition: .1s;
+}
+
+button:hover {
+    transform: scale(1.02);
+    transition: .1s;
+}
+
+p {
+    margin: 7px 0;
+    font-size: 1rem;
+}
+
+/* -----------------------------------------*/
+/* RESPONSIVENESS */
+/* -----------------------------------------*/
+
+
+@media screen and (max-width: 1450px) {
+    #container {
+        width: 100%;
+    }
+
+    #title {
+        width: 50%;
+    }
+
+    #fire {
+        width: 50%;
+    }
+
+    #results {
+        width: 60%;
+    }
+
+    #to-buy,
+    #participants {
+        width: 20%;
+    }
+
+    input,
+    button {
+        width: 30%
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #container {
+        width: 100%;
+    }
+
+    #title {
+        width: 65%;
+    }
+
+    #fire {
+        width: 70%;
+    }
+
+    #results {
+        width: 70%;
+    }
+
+    #to-buy,
+    #participants {
+        width: 40%;
+    }
+
+    input,
+    button {
+        width: 40%
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #container {
+        width: 100%;
+    }
+
+    #title {
+        width: 90%;
+    }
+
+    #fire {
+        width: 90%;
+    }
+
+    #results {
+        width: 80%;
+    }
+
+    #to-buy,
+    #participants {
+        width: 50%;
+    }
+
+    input,
+    button {
+        width: 80%
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
