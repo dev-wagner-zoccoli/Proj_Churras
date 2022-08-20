@@ -47,7 +47,7 @@ Refrigerantes/água/sucos:
 
 ### Desafios
 
-Procurei fazer melhorias sobre o projeto original, o qual computava apenas 4 variáveis para o cáculo do consumo: número de adultos, número de crianças, tempo do evento e o consumo de crianças computado como metade do consumo de um adulto.
+Procurei fazer melhorias sobre o projeto original, o qual computava apenas 3 variáveis para o cáculo do consumo: número de adultos, número de crianças e tempo do evento.
 
 Meu objetivo foi separar os adultos por gênero e definir consumo específico para ambos, fazendo o mesmo com as crianças (consumo específico). Também fiz pequenas alterações aos valores pré definidos a partir de experiência própria.
 
