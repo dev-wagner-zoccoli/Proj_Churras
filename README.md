@@ -27,7 +27,7 @@ O principal propósito deste projeto foi desenvolver meus conhecimentos em JavaS
 Foram seguidos os seguintes parâmetros:
 
 -   Consumo específico por gênero e idade (Homens, mulheres e crianças de até 10 anos);
--   Divisão do consumo em quatro tipos de carne (frango, linguiça, porco e gado);
+-   Divisão do consumo em quatro tipos de carne (frango, linguiça, suína e gado);
 -   Divisão do consumo em três tipos de bebidas (refrigerantes, sucos e água - álcool de responsabilidade individual, portanto, não computado). Além disso o consumo das bebidas tem relação a 1/3 do q seria o consumo total dos participantes durante o evento, pois considera-se que os participantes trarão suas bebidas alcóolicas;
 -   Consumo aumentado se o evento estiver programado para durar 6h ou mais.
 
